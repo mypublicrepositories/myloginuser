@@ -1,0 +1,178 @@
+HOME_DIR/\.bash_history	--	system_u:object_r:bash_home_t:s0
+HOME_DIR/\.bash_logout	--	system_u:object_r:bash_home_t:s0
+HOME_DIR/\.bash_profile	--	system_u:object_r:bash_home_t:s0
+HOME_DIR/\.bashrc	--	system_u:object_r:bash_home_t:s0
+
+HOME_DIR/\.gtk-bookmarks.*	--	system_u:object_r:gtk_home_t:s0
+HOME_DIR/\.cache/imsettings(/.*)?	system_u:object_r:imsetd_cache_home_t:s0
+HOME_DIR/\.cache/deja-dup(/.*)?	system_u:object_r:dejadup_cache_home_t:s0
+HOME_DIR/\.cache/transmission(/.*)?	system_u:object_r:transmission_cache_home_t:s0
+HOME_DIR/\.cache/tracker(/.*)?	system_u:object_r:trstore_cache_home_t:s0
+HOME_DIR/\.cache/wallpaper(/.*)?	system_u:object_r:wallpaper_cache_home_t:s0
+HOME_DIR/\.local/share/tracker(/.*)?	system_u:object_r:trstore_data_home_t:s0
+HOME_DIR/\.local/share/nautilus(/.*)?	system_u:object_r:nautilus_data_home_t:s0
+HOME_DIR/\.local/share/\.converted-launchers	--	system_u:object_r:nautilus_data_home_t:s0
+HOME_DIR/\.local/share/gnome-shell(/.*)?	system_u:object_r:gshell_data_home_t:s0
+HOME_DIR/\.local/share/webkit(/.*)?	system_u:object_r:webkit_data_home_t:s0
+HOME_DIR/\.local/share/gvfs-metadata(/.*)?	system_u:object_r:metadata_data_home_t:s0
+HOME_DIR/\.cache/abrt(/.*)?	system_u:object_r:abrt_cache_home_t:s0
+HOME_DIR/\.cache/evolution(/.*)?	system_u:object_r:evolution_cache_home_t:s0
+HOME_DIR/\.local/share/evolution(/.*)?	system_u:object_r:evolution_data_home_t:s0
+HOME_DIR/\.local/share/Trash(/.*)?	system_u:object_r:trash_data_home_t:s0
+HOME_DIR/\.local/share/Trash/files/.*	<<none>>
+HOME_DIR/\.cache/folks(/.*)?	system_u:object_r:contacts_cache_home_t:s0
+HOME_DIR/\.local/share/folks(/.*)?	system_u:object_r:contacts_data_home_t:s0
+HOME_DIR/\.local/share/recently-used\.xbel.*	--	system_u:object_r:recentlyused_data_home_t:s0
+HOME_DIR/\.local/share/keyrings(/.*)?	system_u:object_r:gkeyringd_gnome_home_t:s0
+HOME_DIR/\.local/share/sounds(/.*)?	system_u:object_r:sounds_data_home_t:s0
+HOME_DIR/\.cache/event-sound-cache.*	--	system_u:object_r:esc_cache_home_t:s0
+HOME_DIR/\.cache/\.fr-.*	system_u:object_r:froller_cache_home_t:s0
+HOME_DIR/\.local/share/gsettings-data-convert.*	--	system_u:object_r:dataconvert_data_home_t:s0
+HOME_DIR/\.local/share/gnome-settings-daemon(/.*)?	system_u:object_r:gsetd_data_home_t:s0
+HOME_DIR/\.config/gnome-session(/.*)?	system_u:object_r:gsession_config_home_t:s0
+HOME_DIR/\.config/enchant(/.*)?	system_u:object_r:enchant_config_home_t:s0
+HOME_DIR/\.config/gedit(/.*)?	system_u:object_r:gedit_config_home_t:s0
+HOME_DIR/\.config/gnome-boxes(/.*)?	system_u:object_r:gbox_config_home_t:s0
+HOME_DIR/\.config/transmission(/.*)?	system_u:object_r:transmission_config_home_t:s0
+HOME_DIR/\.config/pulse(/.*)?		system_u:object_r:pulseaudio_home_t:s0
+HOME_DIR/\.config/imsettings(/.*)?	system_u:object_r:imsets_config_home_t:s0
+HOME_DIR/\.config/nautilus(/.*)?	system_u:object_r:nautilus_config_home_t:s0
+HOME_DIR/\.config/gconf(/.*)?		system_u:object_r:gconf_config_home_t:s0	
+HOME_DIR/\.config/evince(/.*)?		system_u:object_r:evince_config_home_t:s0	
+HOME_DIR/\.config/yelp(/.*)?		system_u:object_r:yelp_config_home_t:s0	
+HOME_DIR/\.config/eog(/.*)?		system_u:object_r:eog_config_home_t:s0	
+HOME_DIR/\.config/tracker(/.*)?		system_u:object_r:trminer_config_home_t:s0
+HOME_DIR/\.config/ibus(/.*)?		system_u:object_r:ibus_config_home_t:s0
+HOME_DIR/\.config/abrt(/.*)?		system_u:object_r:abrt_config_home_t:s0
+HOME_DIR/\.config/gtk-3\.0(/.*)?	system_u:object_r:gtk_home_t:s0
+HOME_DIR/\.config/goa.*			system_u:object_r:goa_config_home_t:s0
+HOME_DIR/\.config/evolution(/.*)?	system_u:object_r:evolution_config_home_t:s0
+HOME_DIR/\.config/dconf(/.*)		system_u:object_r:dconf_config_home_t:s0
+HOME_DIR/\.config/user-dirs\.dirs.*	--	system_u:object_r:xdg_config_home_t:s0
+HOME_DIR/\.config/user-dirs\.locale.*	--	system_u:object_r:xdg_config_home_t:s0
+HOME_DIR/\.config/dconf(/.*)?	system_u:object_r:dconf_config_home_t:s0
+
+/root/\.cache/dconf(/.*)?	system_u:object_r:dconf_tmp_t:s0
+/root/\.config/dconf(/.*)?	system_u:object_r:dconf_config_home_t:s0
+
+/usr/libexec/deja-dup/tools/libduplicity\.so	--	system_u:object_r:lib_t:s0
+/usr/lib/eclipse/eclipse	--	system_u:object_r:bin_t:s0
+
+/usr/bin/xhost	--	system_u:object_r:xhost_exec_t:s0
+/usr/sbin/consoletype	--	system_u:object_r:consoletype_exec_t:s0
+/usr/libexec/imsettings-daemon	--	system_u:object_r:imsetd_exec_t:s0
+/usr/bin/xrdb	--	system_u:object_r:xrdb_exec_t:s0
+/usr/bin/xmodmap	--	system_u:object_r:xmodmap_exec_t:s0
+/usr/bin/dbus-launch	--	system_u:object_r:dbuslaunch_exec_t:s0
+/usr/libexec/gvfsd	--	system_u:object_r:gvfsd_exec_t:s0
+/usr/libexec/gvfsd-fuse	--	system_u:object_r:gvfsd_fuse_exec_t:s0
+/usr/libexec/at-spi-bus-launcher	--	system_u:object_r:atspi_exec_t:s0
+/usr/libexec/at-spi2-registryd	--	system_u:object_r:atspi2_exec_t:s0
+/usr/libexec/imsettings-check	--	system_u:object_r:imsetcheck_exec_t:s0
+/usr/bin/gnome-session	--	system_u:object_r:gsession_exec_t:s0
+/usr/libexec/gnome-session-check-accelerated	--	system_u:object_r:gsession_chkaccel_exec_t:s0
+/usr/libexec/deja-dup/deja-dup-monitor	--	system_u:object_r:dejadupmon_exec_t:s0
+/usr/bin/gsettings-data-convert	--	system_u:object_r:gset_dataconvert_exec_t:s0
+/usr/bin/start-pulseaudio-x11	--	system_u:object_r:startpax11_exec_t:s0
+/usr/bin/spice-vdagent	--	system_u:object_r:svdagent_exec_t:s0
+/usr/libexec/gnome-settings-daemon	--	system_u:object_r:gsetd_exec_t:s0
+/usr/bin/pactl	--	system_u:object_r:pactl_exec_t:s0
+/usr/libexec/gvfs-udisks2-volume-monitor	--	system_u:object_r:gvfsd_udiskmon_exec_t:s0
+/usr/libexec/gvfs-gphoto2-volume-monitor	--	system_u:object_r:gvfsd_gphotovolmon_exec_t:s0
+/usr/libexec/gvfs-afc-volume-monitor	--	system_u:object_r:gvfsd_afcvolmon_exec_t:s0
+/usr/bin/ibus-daemon	--	system_u:object_r:ibus_exec_t:s0
+/usr/libexec/gsd-printer	--	system_u:object_r:gsdprinter_exec_t:s0
+/usr/bin/gnome-shell	--	system_u:object_r:gshell_exec_t:s0
+/usr/libexec/dconf-service	--	system_u:object_r:dconf_exec_t:s0
+/usr/bin/dnssec-trigger-panel	--	system_u:object_r:dnssecmon_exec_t:s0
+/usr/bin/nm-applet	--	system_u:object_r:nmappl_exec_t:s0
+/usr/bin/abrt-applet	--	system_u:object_r:abrtappl_exec_t:s0
+/usr/libexec/tracker-miner-fs	--	system_u:object_r:trminerfs_exec_t:s0
+/usr/bin/imsettings-switch	--	system_u:object_r:imsets_exec_t:s0
+/usr/bin/seapplet	--	system_u:object_r:seappl_exec_t:s0
+/usr/libexec/tracker-store	--	system_u:object_r:trstore_exec_t:s0
+/usr/bin/xdg-user-dirs-update	--	system_u:object_r:xdgudirupd_exec_t:s0
+/usr/bin/xdg-user-dirs-gtk-update	--	system_u:object_r:xdgudirupd_exec_t:s0
+/usr/bin/canberra-gtk-play	--	system_u:object_r:canberra_exec_t:s0
+/usr/libexec/evolution/.*/evolution-alarm-notify	--	system_u:object_r:evoalarm_exec_t:s0
+/usr/libexec/evolution-source-registry	--	system_u:object_r:evosrcreg_exec_t:s0
+/usr/libexec/gconfd-2	--	system_u:object_r:gconfd2_exec_t:s0
+/usr/libexec/goa-daemon	--	system_u:object_r:goad_exec_t:s0
+/usr/libexec/evolution-calendar-factory	--	system_u:object_r:evocalf_exec_t:s0
+/usr/libexec/gnome-shell-calendar-server	--	system_u:object_r:gshellcald_exec_t:s0
+/usr/libexec/gnome-boxes-search-provider	--	system_u:object_r:gboxsrchp_exec_t:s0
+/usr/libexec/gnome-documents-search-provider	--	system_u:object_r:gdocsrchp_exec_t:s0
+/usr/libexec/gnome-contacts-search-provider	--	system_u:object_r:gconsrchp_exec_t:s0
+/usr/libexec/nautilus-shell-search-provider	--	system_u:object_r:nautsrchp_exec_t:s0
+/usr/libexec/evolution-addressbook-factory	--	system_u:object_r:evoaddrf_exec_t:s0
+/usr/bin/gjs-console	--	system_u:object_r:gjsconsole_exec_t:s0
+/usr/bin/evince	--	system_u:object_r:evince_exec_t:s0
+/usr/bin/eog	--	system_u:object_r:eog_exec_t:s0
+/usr/bin/nautilus-connect-server	--	system_u:object_r:nautcs_exec_t:s0
+/usr/bin/transmission-gtk	--	system_u:object_r:transmissiongtk_exec_t:s0
+/usr/bin/gnome-system-monitor	--	system_u:object_r:gsysmon_exec_t:s0
+/usr/bin/deja-dup-preferences	--	system_u:object_r:dejadupprefs_exec_t:s0
+/usr/bin/deja-dup	--	system_u:object_r:dejadup_exec_t:s0
+/usr/bin/file-roller	--	system_u:object_r:froller_exec_t:s0
+/usr/bin/nautilus	--	system_u:object_r:naut_exec_t:s0
+/usr/bin/baobab	--	system_u:object_r:baobab_exec_t:s0
+/usr/bin/nautilus-autorun-software	--	system_u:object_r:nautautor_exec_t:s0
+/usr/bin/gnome-terminal	--	system_u:object_r:gterm_exec_t:s0
+
+/usr/libexec/gnome-terminal-migration	--	system_u:object_r:gtermmigr_exec_t:s0
+/usr/libexec/gnome-terminal-server	--	system_u:object_r:gtermd_exec_t:s0
+
+/usr/lib/vte-.*/gnome-pty-helper	--	system_u:object_r:gptyhelper_exec_t:s0
+/usr/libexec/gvfsd-metadata	--	system_u:object_r:gvfsd_metadata_exec_t:s0
+/usr/bin/yelp	--	system_u:object_r:yelp_exec_t:s0
+/usr/bin/nautilus-sendto	--	system_u:object_r:nautsendto_exec_t:s0
+/usr/bin/seahorse	--	system_u:object_r:seahorse_exec_t:s0
+
+/usr/bin/evince-previewer	--	system_u:object_r:evinceprev_exec_t:s0
+/usr/libexec/evinced	--	system_u:object_r:evinced_exec_t:s0
+
+/usr/libexec/tracker-extract	--	system_u:object_r:trextract_exec_t:s0
+
+/usr/libexec/nautilus-convert-metadata	--	system_u:object_r:nautdataconvert_exec_t:s0
+/usr/libexec/gvfsd-trash	--	system_u:object_r:gvfsd_trash_exec_t:s0
+/usr/libexec/gvfsd-burn	--	system_u:object_r:gvfsd_burn_exec_t:s0
+/usr/libexec/gvfsd-recent	--	system_u:object_r:gvfsd_recent_exec_t:s0
+/usr/libexec/gvfsd-network	--	system_u:object_r:gvfsd_network_exec_t:s0
+/usr/libexec/gvfsd-smb-browse	--	system_u:object_r:gvfsd_smbbrowse_exec_t:s0
+/usr/libexec/gvfsd-dnssd	--	system_u:object_r:gvfsd_dnssd_exec_t:s0
+/usr/libexec/gvfsd-sftp	--	system_u:object_r:gvfsd_sftp_exec_t:s0
+/usr/libexec/gvfsd-http	--	system_u:object_r:gvfsd_http_exec_t:s0
+
+/usr/bin/gpgconf	--	system_u:object_r:gpgconf_exec_t:s0
+/usr/lib/seahorse/seahorse-ssh-askpass	--	system_u:object_r:seahorse_askpass_exec_t:s0
+
+/usr/libexec/gnome-shell-hotplug-sniffer	--	system_u:object_r:hotplugsniff_exec_t:s0
+
+/usr/bin/gedit	--	system_u:object_r:gedit_exec_t:s0
+
+/usr/bin/vino-passwd	--	system_u:object_r:vinopwd_exec_t:s0
+/usr/bin/vino-preferences	--	system_u:object_r:vinoprefs_exec_t:s0
+/usr/libexec/vino-server	--	system_u:object_r:vinod_exec_t:s0
+
+/usr/bin/gnome-system-log	--	system_u:object_r:gsyslog_exec_t:s0
+/usr/bin/logview	--	system_u:object_r:logview_exec_t:s0
+
+/usr/bin/pkexec	--	system_u:object_r:pkexec_exec_t:s0
+
+/usr/libexec/gnome-control-center-search-provider	--	system_u:object_r:gccsearchp_exec_t:s0
+/usr/libexec/gnome-settings-daemon-localeexec	--	system_u:object_r:gsetdlocaleexec_exec_t:s0
+
+/usr/bin/gnome-documents	--	system_u:object_r:gdocs_exec_t:s0
+/usr/bin/gsettings	--	system_u:object_r:gsettings_exec_t:s0
+
+/usr/libexec/gd-tracker-gdata-miner	--	system_u:object_r:gdtrackergdatam_exec_t:s0
+/usr/libexec/gd-tracker-zpj-miner	--	system_u:object_r:gdtrackerzpjm_exec_t:s0
+
+/usr/bin/start-pulseaudio-kde	--	system_u:object_r:startpakde_exec_t:s0
+/usr/bin/chainsaw	--	system_u:object_r:chainsaw_exec_t:s0
+/usr/bin/evolution	--	system_u:object_r:evolution_exec_t:s0
+/usr/bin/gnome-control-center	--	system_u:object_r:gccenter_exec_t:s0
+/usr/bin/gnome-boxes	--	system_u:object_r:gboxes_exec_t:s0
+/usr/bin/system-config-printer-applet	--	system_u:object_r:scprintappl_exec_t:s0
+/usr/bin/gpk-service-pack	--	system_u:object_r:gpksvcpk_exec_t:s0
+/usr/bin/gnome-contacts	--	system_u:object_r:gcontacts_exec_t:s0
