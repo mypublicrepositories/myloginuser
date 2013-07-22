@@ -64,7 +64,7 @@ To use this policy module:
   Note the above example is based on the targeted policy model situated at /etc/selinux/targeted.
 8. Create a new SELinux identity mapping: sudo semanage user -a -L s0 -r s0 -R myloginuser_r -P user myloginuser_u
   Note Multi Compartment Security functionality is currently not supported for this user session.
-9. Map the linux login user identity to the SELinux user identity: sudo semanage login -a -s myloginuser_u -r s9 myloginuser
+9. Map the linux login user identity to the SELinux user identity: sudo semanage login -a -s myloginuser_u -r s0 myloginuser
 10. Restore the security contexts of each path in the enclosed myloginuser.fc file using sudo restorecon -R -v -F "$PATH"
   Note alternately use: sudo fixfiles onboot && reboot.
   Note it is of vital importance that locations are labeled in accordance with the specifications provided in the
@@ -78,7 +78,7 @@ To use this policy module:
 Currenlty this policy is tested in very limited environments ( Fedora 18/19 with gnome desktop) and with very limited
 hardware (Intel and AMD GPU using non-proprietory drivers)
 
-Again the goal is t support any SELinux enabled system that implements policy based off of Reference policy but
+Again the goal is to support any SELinux enabled system that implements policy based off of Reference policy but
 currently it is only tested with Fedora 18 and 19.
 
 This policy is not for the faint hearted. Use it at your own risk.
